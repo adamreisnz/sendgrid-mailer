@@ -9,7 +9,7 @@ A simple wrapper around the official Sendgrid library to make sending emails eas
 This wrapper is not meant as a full blown replacement of the
 [official Sendgrid library](https://www.npmjs.com/package/sendgrid). Instead,
 it is meant for those use cases where you just want to send one or more emails *quickly*
-with a few lines of code, without needing to use elaborate helper classes or remember the Sendgrid Request JSON structure by heart.
+with a few lines of code, without needing to use elaborate helper classes or remember the Sendgrid Request JSON structure by hard.
 
 ## Installation
 Use `npm` or `yarn` to install:
