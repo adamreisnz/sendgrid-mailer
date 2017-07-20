@@ -4,13 +4,6 @@
 [![node dependencies](https://david-dm.org/adamreisnz/sendgrid-mailer.svg)](https://david-dm.org/adamreisnz/sendgrid-mailer)
 [![github issues](https://img.shields.io/github/issues/adamreisnz/sendgrid-mailer.svg)](https://github.com/adamreisnz/sendgrid-mailer/issues)
 
-A simple wrapper around the official Sendgrid library to make sending emails easy again.
-
-This wrapper is not meant as a full blown replacement of the
-[official Sendgrid library](https://www.npmjs.com/package/sendgrid). Instead,
-it is meant for those use cases where you just want to send one or more emails *quickly*
-with a few lines of code, without needing to use elaborate helper classes or remember the Sendgrid Request JSON structure by heart.
-
 ## DEPRECATED
 This package is now **deprecated** in favour of the new official Sendgrid library [@sendgrid/mail](https://www.npmjs.com/package/@sendgrid/mail). This new library, which I've worked on in collaboration with Sendgrid, follows almost the exact same API as this package. As such, it will work as a drop-in replacement with only a few minor changes needed:
 
@@ -36,6 +29,14 @@ sgMail.sendMultiple(emails);
 That's it! The structure of your emails data can remain unchanged. In addition, the new library supports all advanced API options as documented in the [API v3 documentation](https://sendgrid.com/docs/API_Reference/Web_API_v3/Mail/index.html) as well.
 
 Please use [the new Sendgrid library](https://www.npmjs.com/package/@sendgrid/mail) going forward, as this package will **no longer be maintained or supported**.
+
+## Introduction
+A simple wrapper around the official Sendgrid library to make sending emails easy again.
+
+This wrapper is not meant as a full blown replacement of the
+[official Sendgrid library](https://www.npmjs.com/package/sendgrid). Instead,
+it is meant for those use cases where you just want to send one or more emails *quickly*
+with a few lines of code, without needing to use elaborate helper classes or remember the Sendgrid Request JSON structure by heart.
 
 ## Installation
 Use `npm` or `yarn` to install:
